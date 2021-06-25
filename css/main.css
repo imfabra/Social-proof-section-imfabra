@@ -1,0 +1,18 @@
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    inline-size: 100%;
+    block-size: 100vh;
+    overflow: hidden;
+}
