@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import './header/header.css';
+@import './report-card/report-card.css';
 
 :root {
     /* style fonts */
@@ -37,10 +39,16 @@ body {
     inline-size: 100%;
     block-size: 100vh;
     overflow: scroll;
+    padding-inline-start: 2.4rem;
+    padding-inline-end: 2.4rem;
 }
 
 .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    max-inline-size: 111.0rem;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    max-inline-size: 111.0rem;
 }

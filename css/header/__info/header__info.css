@@ -1,0 +1,13 @@
+.header__info {
+    max-inline-size: 44.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header__info {
+        max-inline-size: 44.5rem;
+        gap: 1.0rem;
+    }
+}

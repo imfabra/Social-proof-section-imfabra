@@ -1,0 +1,15 @@
+.header__title {
+    font: var(--headline2);
+    letter-spacing: -0.114rem;
+    color: var(--headline-color1);
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header__title {
+        font: var(--headline1);
+        letter-spacing: -0.171rem;
+        text-align: left;
+    }
+}

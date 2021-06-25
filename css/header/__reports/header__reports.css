@@ -1,0 +1,17 @@
+.header__reports {
+    max-inline-size: 54.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header__reports {
+        inline-size: 54.0rem;
+        flex-direction: column;
+        justify-content: space-between;
+        block-size: 20.0rem;
+        margin-block-start: 1.2rem;
+    }
+}

@@ -1,0 +1,33 @@
+@import './__score/report-card__score.css';
+
+.report-card {
+    font: var(--headline3);
+    letter-spacing: 0px;
+    color: var(--headline-color1);
+    background-color: var(--background-color1);
+
+    margin: 0;
+    padding-block-start: 1.6rem;
+    padding-block-end: 1.6rem;
+    max-inline-size: 44.5rem;
+    border-radius: 0.8rem;
+    gap: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1200px) {
+    .report-card {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-block-start: 2.0rem;
+        padding-block-end: 2.0rem;
+        inline-size: 44.5rem;
+        padding-inline-start: 3.2rem;
+        gap: 3.2rem;
+    }
+}
+

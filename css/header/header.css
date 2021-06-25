@@ -1,0 +1,21 @@
+@import './__info/header__info.css';
+@import './__title/header__title.css';
+@import './__text/header__text.css';
+@import './__reports/header__reports.css';
+@import './__card/header__card.css';
+
+.header {
+    margin-block-start: 8.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        inline-size: 100%;
+        margin-block-start: 13.2rem;
+    }
+}
