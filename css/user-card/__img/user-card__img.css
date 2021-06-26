@@ -1,0 +1,5 @@
+.user-card__img {
+    inline-size: 4.0rem;
+    block-size: 4.0rem;
+    border-radius: 50%;
+}

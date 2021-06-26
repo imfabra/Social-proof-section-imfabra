@@ -1,0 +1,6 @@
+.user-card__info {
+    margin-inline-start: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

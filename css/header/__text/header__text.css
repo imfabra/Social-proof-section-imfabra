@@ -1,6 +1,6 @@
 .header__text {
     font: var(--body1);
-    letter-spacing: 0.05rem;
+    letter-spacing: -0.05rem;
     color: var(--body-color1);
     text-align: center;
 

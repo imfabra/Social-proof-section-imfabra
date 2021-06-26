@@ -1,0 +1,5 @@
+@media only screen and (min-width: 1200px) {
+    .user-card_align-bottom {
+        align-self: flex-end;
+    }
+}

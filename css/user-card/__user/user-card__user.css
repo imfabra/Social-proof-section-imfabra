@@ -1,0 +1,7 @@
+.user-card__user {
+    margin-block-start: 4.0rem;
+    margin-inline-start: 3.2rem;
+    margin-inline-end: 3.2rem;
+    display: flex;
+    align-items: center;
+}

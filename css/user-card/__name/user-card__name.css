@@ -1,0 +1,6 @@
+.user-card__name {
+    font: var(--headline3);
+    letter-spacing: 0px;
+    color: var(--body-color2);
+    margin: 0;
+}

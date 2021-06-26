@@ -1,0 +1,6 @@
+.user-card__verification {
+    font: var(--headline4);
+    letter-spacing: 0px;
+    color: var(--headline-color2);
+    margin: 0;
+}

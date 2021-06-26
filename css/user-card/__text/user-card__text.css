@@ -1,0 +1,11 @@
+.user-card__text {
+    font: var(--body2);
+    letter-spacing: -0.023rem;
+    color: var(--body-color2);
+
+    margin-block-start: 0rem;
+    margin-block-end: 3.8rem;
+    margin-inline-start: 3.2rem;
+    margin-inline-end: 3.2rem;
+    max-inline-size: 35.0rem;
+}

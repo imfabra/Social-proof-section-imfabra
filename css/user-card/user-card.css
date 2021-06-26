@@ -1,0 +1,24 @@
+@import './__user/user-card__user.css';
+@import './__img/user-card__img.css';
+@import './__info/user-card__info.css';
+@import './__name/user-card__name.css';
+@import './__verification/user-card__verification.css';
+@import './__text/user-card__text.css';
+@import './_align-top/user-card_align-top.css';
+@import './_align-bottom/user-card_align-bottom.css';
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.8rem;
+    block-size: 24.8rem;
+
+    background-color: var(--headline-color1);
+}
+
+@media only screen and (min-width: 1200px) {
+    .user-card {
+        block-size: 23.4rem;
+    }
+}
