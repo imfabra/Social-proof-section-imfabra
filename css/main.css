@@ -39,14 +39,12 @@ body {
     margin: 0;
     padding: 0;
     inline-size: 100%;
-    block-size: 100vh;
-    overflow: scroll;
+    min-block-size: 100vh;
     padding-inline-start: 2.4rem;
     padding-inline-end: 2.4rem;
     
     background-image: url("../images/bg-pattern-top-mobile.svg"), 
                       url("../images/bg-pattern-bottom-mobile.svg");
-    /* background-color: rgba(255, 0, 0, 0.1); */
     background-position: top center, bottom center;
     background-repeat: no-repeat, no-repeat;
 }
@@ -60,6 +58,7 @@ body {
     max-inline-size: 111.0rem;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    margin-block-end: 10.0rem;
 }
 
 @media only screen and (min-width: 1200px) {
